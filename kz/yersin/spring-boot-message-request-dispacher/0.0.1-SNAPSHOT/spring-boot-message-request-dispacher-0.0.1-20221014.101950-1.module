@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kz.yersin",
+    "module": "spring-boot-message-request-dispacher",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-message-request-dispacher-0.0.1-SNAPSHOT-plain.jar",
+          "url": "spring-boot-message-request-dispacher-0.0.1-SNAPSHOT-plain.jar",
+          "size": 15203,
+          "sha512": "4b6f336151a716fdf5fdaa9bb49a9d06de86c4dec39d89cfdf321a155681db155b7ef989ec6ab9c1e8a0af10c56b61ab126e9d72193082ec04404b0d914b8b1e",
+          "sha256": "1dc2ef2140382073d0a8c481fe59e8c306e056794025a9dc45f181331afba20f",
+          "sha1": "41aeeb38ca1ab39d66164d5542dee802193a462a",
+          "md5": "fa5f3319024f701bb15452a4fb719b3c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-amqp",
+          "version": {
+            "requires": "2.7.4"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.7.4"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "2.7.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-message-request-dispacher-0.0.1-SNAPSHOT-plain.jar",
+          "url": "spring-boot-message-request-dispacher-0.0.1-SNAPSHOT-plain.jar",
+          "size": 15203,
+          "sha512": "4b6f336151a716fdf5fdaa9bb49a9d06de86c4dec39d89cfdf321a155681db155b7ef989ec6ab9c1e8a0af10c56b61ab126e9d72193082ec04404b0d914b8b1e",
+          "sha256": "1dc2ef2140382073d0a8c481fe59e8c306e056794025a9dc45f181331afba20f",
+          "sha1": "41aeeb38ca1ab39d66164d5542dee802193a462a",
+          "md5": "fa5f3319024f701bb15452a4fb719b3c"
+        }
+      ]
+    }
+  ]
+}
